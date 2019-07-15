@@ -1,0 +1,44 @@
+{
+  "name": "dSYM-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "server": "node ./bin/www",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "@babel/runtime": "^7.3.4",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "execa": "^1.0.0",
+    "express": "~4.16.0",
+    "glob": "^7.1.3",
+    "http-errors": "~1.6.2",
+    "mocha": "^6.0.2",
+    "mockjs": "^1.0.1-beta3",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "0.11.0",
+    "nodemon": "^1.18.10",
+    "os-homedir": "^2.0.0",
+    "plist": "^3.0.1",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "run-applescript": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/register": "^7.0.0"
+  }
+}
