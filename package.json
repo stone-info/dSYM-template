@@ -29,7 +29,7 @@
     "nodemon": "^1.18.10",
     "os-homedir": "^2.0.0",
     "plist": "^3.0.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "request": "^2.88.0",
     "run-applescript": "^3.2.0"
   },
