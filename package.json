@@ -28,7 +28,7 @@
     "node-sass-middleware": "0.11.0",
     "nodemon": "^1.18.10",
     "os-homedir": "^2.0.0",
-    "plist": "^3.0.1",
+    "plist": "^3.0.4",
     "pug": "^2.0.3",
     "request": "^2.88.0",
     "run-applescript": "^3.2.0"
